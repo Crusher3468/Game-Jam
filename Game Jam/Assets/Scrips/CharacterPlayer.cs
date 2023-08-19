@@ -32,9 +32,9 @@ public class CharacterPlayer : MonoBehaviour
 		inputRouter.fireStopEvent += OnFireStop;
 		inputRouter.nextItemEvent += OnNextItem;*/
 
-        GetComponent<Health>().onDamage += OnDamage;
-        GetComponent<Health>().onHeal += OnHeal;
-        GetComponent<Health>().onDeath += OnDeath;
+        //GetComponent<Health>().onDamage += OnDamage;
+        //GetComponent<Health>().onHeal += OnHeal;
+        //GetComponent<Health>().onDeath += OnDeath;
 
         UIManager.Instance.SetHealth((int)GetComponent<Health>().health);
     }
